@@ -17,6 +17,9 @@ if(editorType =='tile-map'){
 else if(editorType =='tile-painter'){
   alert('Mode set to tile painter');
   var tilePainterMode: string = prompt('Enter editor mode: grayscale, rgb, black-n-white');
+  if(tilePainterMode == 'grayscale'){
+    alert('Color mode set tp grayscale');
+  }
   
 }else {
   alert('Invalid mode specified.');
